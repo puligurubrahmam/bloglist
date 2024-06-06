@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 70vw;
+}
+.image_url {
+  height: 400px;
+  width: 70%;
+}
+.avatar_url {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  margin-right: 5px;
+}
+.card {
+  display: flex;
+
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .image_url {
+    height: 200px;
+  }
+}
